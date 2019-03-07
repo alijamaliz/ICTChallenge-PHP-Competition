@@ -131,7 +131,7 @@
                 دریافت امتیازات
             </div>
         </h2>
-        <form class="ui large form" id="form" action="/score" method="post">
+        <form class="ui large form" id="form2" action="/score" method="post">
             <div class="ui stacked segment">
                 <div class="field required">
                     <label style="text-align: right">نام کاربری</label>
@@ -168,7 +168,7 @@
                     </div>
                 </div>
                 <div class="ui fluid large orange submit button iransans" style="margin: 0"
-                     onclick="document.getElementById('form').submit();">ارسال
+                     onclick="document.getElementById('form2').submit();">ارسال
                 </div>
             </div>
 

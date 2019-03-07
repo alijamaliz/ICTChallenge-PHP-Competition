@@ -57,3 +57,7 @@
 .iransans {
     font-family: "IRANSans", sans-serif !important;
 }
+
+.ui.form .required.field>.checkbox:after, .ui.form .required.field>label:after, .ui.form .required.fields.grouped>label:after, .ui.form .required.fields:not(.grouped)>.field>.checkbox:after, .ui.form .required.fields:not(.grouped)>.field>label:after {
+    margin: -.2em 0 0 .2em !important;
+}
