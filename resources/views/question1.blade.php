@@ -131,7 +131,7 @@
                 دریافت امتیازات
             </div>
         </h2>
-        <form class="ui large form" id="form" action="/judgment" method="post">
+        <form class="ui large form" id="form" action="/score" method="post">
             <div class="ui stacked segment">
                 <div class="field required">
                     <label style="text-align: right">نام کاربری</label>
