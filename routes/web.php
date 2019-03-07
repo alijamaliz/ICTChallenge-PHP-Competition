@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('question1');
 });
+Route::post('/score', 'Q1@score');
+Route::post('/judgment', 'Q1@judgment');
+Route::get('/voicegift', function () {
+    return view('question4');
+});
+Route::post('/voicegift','Q4@save');
+Route::get('/test','Q4@test');
