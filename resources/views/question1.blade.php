@@ -34,12 +34,15 @@
             /*background-image: linear-gradient(45deg, #ffe88e, #e49ca8);*/
             /*background-image: linear-gradient(45deg, #abff00, #0099e2);*/
         }
+
         body > .grid {
             height: 100%;
         }
+
         .image {
             margin-top: -100px;
         }
+
         .column {
             max-width: 450px;
         }
@@ -97,7 +100,16 @@
                         </select>
                     </div>
                 </div>
-                <div class="ui fluid large orange submit button iransans" onclick="document.getElementById('form').submit();">ارسال</div>
+                <div class="field">
+                    <input type="file" name="file" class="inputfile" id="embedpollfileinput" style="display: none;"/>
+                    <label for="embedpollfileinput" class="ui fluid right orange button iransans" style="color: white;">
+                        پرونده
+                    </label>
+                </div>
+
+                <div class="ui fluid large orange submit button iransans" style="margin: 0"
+                     onclick="document.getElementById('form').submit();">ارسال
+                </div>
             </div>
 
             <div class="ui error message"></div>
